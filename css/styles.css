@@ -1,0 +1,183 @@
+body {
+  color: #393232;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /***************************
+  16px=1em=100% ; rem=route em and is no longer inherit sizing
+  */
+  font-size: 3rem;
+  color: #bbbbbb;
+  margin: 50px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+  color: #bbbbbb;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+h3 {
+  color: #e2d5d5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #8e7f7f;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px;
+}
+a:hover{
+  color: white;
+}
+hr{
+  width:4%;
+  border: dotted #e2d5d5 6px;
+  border-bottom: none;
+  margin: 100px auto 100px;
+}
+p {
+    line-height: 1.5;
+}
+.Iam {
+   color: #393232;
+}
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 14px;
+   line-height: 14px;
+   color: #393232;
+   font-family: 'Merriweather', serif;
+   width: 80px;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 18px;
+   background-color: #E2D5D5;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   border: solid #BBBBBB 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.btn:hover {
+   background: #BBBBBB;
+   border: solid #BBBBBB 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.top-container {
+  background-color: #865858;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #8e7f7f;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: left;
+
+}
+
+.bottom-container {
+  background-color: #bbbbbb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.copyright {
+margin:20px auto 5px;
+  color: white;
+  font-size: 0.7rem;
+}
+.pro {
+  text-decoration: underline;
+}
+.programmer{
+  padding-top:0;
+  margin-top:0;
+}
+.contact-me{
+  width: 30%;
+  margin: auto auto 10px;
+}
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 350px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  text-align: inherit;
+}
+
+.myface {
+  width: 30%;
+}
+
+.tripadvisor {
+  width: 29%;
+  float: right;
+  margin-left: 30px;
+}
+
+.restaurants {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gymboree {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.events {
+  width: 30%;
+  float: left;
+margin-right: 30px;
+
+}
+
+.hotels {
+  width: 45%;
+  float: right;
+  margin-left: 30px;
+}
+.travelagency {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
